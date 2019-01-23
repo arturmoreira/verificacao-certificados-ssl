@@ -1,0 +1,21 @@
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.exe.config
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.exe
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.pdb
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.csprojAssemblyReference.cache
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.csproj.CoreCompileInputs.cache
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.exe
+C:\Users\artur\AppData\Local\Temporary Projects\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.pdb
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.exe.config
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.exe
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.pdb
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.csprojAssemblyReference.cache
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.csproj.CoreCompileInputs.cache
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.exe
+C:\Dropbox\Projectos\Verificação de Certificados SSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.pdb
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.exe.config
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.exe
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\bin\Debug\VerificacaoCertificadosSSL.pdb
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.csprojAssemblyReference.cache
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.csproj.CoreCompileInputs.cache
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.exe
+C:\Dropbox\Projectos\VerificacaoCertificadosSSL\VerificacaoCertificadosSSL\obj\Debug\VerificacaoCertificadosSSL.pdb
