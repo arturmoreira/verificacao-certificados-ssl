@@ -30,6 +30,8 @@ namespace VerificacaoCertificadosSSL.Properties {
   <string>https://dipromed.dnsalias.com</string>
   <string>https://arturmoreira.eu</string>
   <string>https://www.arturmoreira.eu</string>
+  <string>https://diprocloud.com</string>
+  <string>https://diprocloud.pt</string>
 </ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ListaUrl {
             get {

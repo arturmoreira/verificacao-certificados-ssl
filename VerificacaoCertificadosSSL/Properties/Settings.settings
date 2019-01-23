@@ -8,6 +8,8 @@
   &lt;string&gt;https://dipromed.dnsalias.com&lt;/string&gt;
   &lt;string&gt;https://arturmoreira.eu&lt;/string&gt;
   &lt;string&gt;https://www.arturmoreira.eu&lt;/string&gt;
+  &lt;string&gt;https://diprocloud.com&lt;/string&gt;
+  &lt;string&gt;https://diprocloud.pt&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="AntecedenciaDiasAviso" Type="System.Int32" Scope="Application">

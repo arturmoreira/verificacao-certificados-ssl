@@ -21,15 +21,27 @@ namespace VerificacaoCertificadosSSL
 
             foreach (var urlParaVerificar in Settings.Default.ListaUrl)
             {
-                var validadeCertificado = RetornarValidadeCertificadoSsl(urlParaVerificar);
-                var diasAteExpiracaoCertificado = validadeCertificado.HasValue ? (int)validadeCertificado.Value.Subtract(DateTime.Now).TotalDays : -1;
-
                 Console.WriteLine(urlParaVerificar.Replace("https://", string.Empty));
                 Console.Write("  ");
-                Console.ForegroundColor = CorMensagem(diasAteExpiracaoCertificado);
-                Console.Write(validadeCertificado);
-                Console.Write(" ");
-                Console.WriteLine(MensagemDiasAteExpiracao(diasAteExpiracaoCertificado));
+
+                var validadeCertificado = RetornarValidadeCertificadoSsl(urlParaVerificar);
+
+                if (validadeCertificado.HasValue)
+                {
+                    var diasAteExpiracaoCertificado = (int)validadeCertificado.Value.Subtract(DateTime.Now).TotalDays;
+
+                    Console.ForegroundColor = CorMensagem(diasAteExpiracaoCertificado);
+                    Console.Write(validadeCertificado);
+                    Console.Write(" ");
+                    Console.WriteLine(MensagemDiasAteExpiracao(diasAteExpiracaoCertificado));
+                }
+                else
+                {
+                    // Validade desconhecida.
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.WriteLine("Não foi possível obter a validade do certificado");
+                }
+
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine();
             }
@@ -55,13 +67,17 @@ namespace VerificacaoCertificadosSSL
             catch
             {
                 X509Certificate cert = request.ServicePoint.Certificate;
-                cert2 = new X509Certificate2(cert);
+                if (cert != null)
+                {
+                    cert2 = new X509Certificate2(cert);
+                }
             }
             finally
             {
                 if (response != null)
                 {
                     response.Close();
+                    response.Dispose();
                 }
             }
 
